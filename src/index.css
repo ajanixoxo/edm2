@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+ background-color: #0A0E11;
+  
+}
+.cir{
+ position: absolute;
+  top: -20px;
+ left: -20px;
+}
+.cir2{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+} 
+

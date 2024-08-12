@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "aw";
+    src: url(aw.ttf);
+}
+
+@font-face {
+    font-family: "cs";
+    src: url(cs.ttf);
+}
+
+@font-face {
+    font-family: "ob";
+    src: url(ob.ttf);
+}
+
+@font-face {
+    font-family: "gad";
+    src: url(gad.ttf);
+}
+
+.nav {
+    color: white;
+
+    h1 {
+        font-family: "aw";
+        font-size: 25px;
+    }
+
+    li {
+        font-family: "ob";
+    }
+}
+
+.hero {
+    color: white;
+     .bg-cont{
+        top: 0px;
+     }
+     .details{
+        margin-top: -50px;
+     }
+    h1 {
+        font-size: 54px;
+        font-family: "cs";
+        line-height: 76px;
+        width: 980px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-family: "gad";
+        font-size: 24px;
+        font-weight: 400;
+        height: 32px;
+        width: 980px;
+        color: #ccc;
+    }
+
+    .btn-cover {
+        max-width: 130px;
+        padding: 3px;
+        position: relative;
+        background: linear-gradient(to right, #433665, #ee9a3a);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    button {
+
+        text-align: center;
+         border: none;
+        background-color: rgba(187, 186, 186, 0.418);
+        padding: 5px;
+        border-radius: 10px;
+        width: 120px;
+        backdrop-filter: blur(x);
+    }
+    .car-btn{
+        .circle{
+            border-radius: 50%;
+        }
+        .activs{
+            width: 40px;
+            border-radius: 5px !important;
+        }
+    }
+}
